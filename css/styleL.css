@@ -1,0 +1,197 @@
+
+@font-face{
+    font-family: Rosario;
+    src: url(../font/Rosario.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../font/Roboto.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    width: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+}
+header{
+    height: 100px;
+    background-color: #000000;
+}
+a{
+    text-decoration: none;
+    font-family: Rosario;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+aside{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #FFFFFF;
+}
+
+.top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.title{
+    color: #ffffff;
+    font-family: Rosario;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: left;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    margin: 0;
+    letter-spacing: 1em;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+}
+.button{
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1em;
+    margin-right: 4px;
+    
+}
+.news{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.albums{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.events{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.store{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.s_button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.container{
+    margin-top: 140px;
+}
+.topic{
+    font-size: 40px;
+    font-family: Rosario;
+    margin: 0;
+    margin-left: 10%;
+    padding: 40px 0;
+    color: #000000;
+    letter-spacing: 1em;
+}
+.info{
+    width: 65%;
+    height: 650px;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 17.5%;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+.selected{
+    width: 650px;
+    height: 650px;
+}
+.detail{
+    width: auto;
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: auto;
+}
+.name{
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: left;
+    letter-spacing: 0.4em;
+    color: #000000;
+}
+.artist{
+    font-family: Rosario;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.3em;
+    color: #000000;
+
+}
+.date{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: left;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+.tracks{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: left;
+    letter-spacing: 0.4em;
+    color: #000000;
+}
+.selection{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    padding-bottom: 80px;
+}
+.disc{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+.album{
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+}
+
+#search{
+    width: 30px;
+    height: 30px;
+}
